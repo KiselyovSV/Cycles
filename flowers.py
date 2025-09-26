@@ -13,7 +13,7 @@ r = "крокус"
 days = int(input("Введите кол-во дней: "))
 if days % 3 == 0:
     print(l, c, r)
-elif (days + 2) % 3 == 0:
+elif days % 3 == 1:
     print(r, l, c)
 else:
     print(c, r, l)
