@@ -7,13 +7,13 @@
 #     l, c = c, l
 # print(l, c, r)
 
-l = "герань"
-c = "фикус"
-r = "крокус"
+l = "G"
+c = "F"
+r = "K"
 days = int(input("Введите кол-во дней: "))
 if days % 3 == 0:
     print(l, c, r)
 elif days % 3 == 1:
     print(r, l, c)
 else:
-    print(c, r, l)
+    print(c, r, l, sep = "")
